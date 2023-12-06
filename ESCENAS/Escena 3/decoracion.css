@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    background: url(./IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+    height: 55rem;
+    background-size: 100%;
+}
+
+
+.doc{
+    background: url(./IMG/doctora.png);
+    background-repeat: no-repeat;
+    background-size: 20rem;
+    height: 35rem;
+    position: absolute;
+    width: 20rem;
+    top: 17.8rem;
+    left: 12rem;
+}
+
+.to:hover{
+    filter: drop-shadow(2.3px 2.3px 13px #ffff);
+}
+
+.ventana{
+    background: url(./IMG/ventana\ abierta.png);
+    background-repeat: no-repeat;
+    background-size: 28rem;
+    height: 25rem;
+    position: absolute;
+    width: 40rem;
+    top: 8rem;
+    left: 37rem;
+}
+
+.mari{
+    background: url(./IMG/mariposa.png);
+    background-repeat: no-repeat;
+    background-size: 2.5rem;
+    height: 18rem;
+    position: absolute;
+    width: 20rem;
+    top: 10rem;
+    left: 50rem;
+}
+
+.mariri{
+    animation: vuela 4s linear forwards;
+}
+
+.riri{
+    display: none;
+}
+
+.na{
+    display: none;
+}
+
+.text{
+  position: absolute;
+  top: 44rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding: 8px 12px;
+}
+
+.text p{
+    width: 50%;
+    background-color: #f2f2f2d6;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1.5px solid #000000;
+}
+
+@keyframes vuela{
+   100%{
+
+    scale: 3;
+    background-position-y: 15rem;
+   }
+
+   30%{
+    opacity: 1;
+   }
+
+   20%{
+    opacity: 0;
+    scale: 1;
+   }
+
+   0%{
+    opacity: 0;
+    background-position-y: 0;
+   }
+}
+

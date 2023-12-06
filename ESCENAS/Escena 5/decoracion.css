@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.todo{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor{
+    background: url(./img/fondo.jpg);
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    width: 100%;
+    position: relative;
+    height: 55rem;
+    background-size: 100%;
+}
+
+.emma{
+    background: url(/img/Emma.png);
+    background-repeat: no-repeat;
+    background-size: 5rem;
+    height: 60rem;
+    position: absolute;
+    top: 11rem;
+    width: 10rem;
+    left: 27rem;
+}
+
+.chai:hover{
+    filter: drop-shadow(2px 2px 10px #ffff);
+}
+
+.igor{
+    background-image: url(/img/Igor.png);
+    background-repeat: no-repeat;
+    background-size: 6.5rem;
+    height: 55rem;
+    position: absolute;
+    top: 10rem;
+    width: 12rem;
+    left: 45rem;
+}
+
+.chao:hover{
+ filter: drop-shadow(2px 2px 10px #ffff);
+}
+
+.mari{
+    background-image: url(/img/mariposa.png);
+    background-repeat: no-repeat;
+    background-size: 4.5rem;
+    height: 55rem;
+    position: absolute;
+    top: 8.5rem;
+    width: 12rem;
+    left: 53rem;
+
+     animation: mariposa 0.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	   animation: mariposa 0.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.posa{
+  display: none;
+}
+
+.mar{
+    background-image: url(/img/mariposaa.png);
+    background-repeat: no-repeat;
+    background-size: 4.5rem;
+    height: 55rem;
+    position: absolute;
+    top: 9rem;
+    width: 12rem;
+    left: 21rem;
+
+     animation: mariposa 0.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	   animation: mariposa 0.50s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.ipo{
+  display: none;
+}
+
+.dialogo{
+  position: absolute;
+  top: 40rem;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding: 8px 12px;
+  
+}
+
+.dialogo p{
+    width: 50%;
+    background-color: #f2f2f2d6;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1.5px solid #000000;
+
+      animation: dialog 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: dialog 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    
+}
+
+.ocul{
+    display: none;
+}
+
+
+.aparece{
+    animation: cuadro .5S linear forwards;
+}
+
+@keyframes cuadro{
+    0%{ 
+        opacity: 0;
+ 
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes mariposa {
+    0% {
+      transform: translateZ(0) translateY(0);
+      transform: translateZ(0) translateY(0);
+    }
+    100% {
+      transform: translateZ(130px) translateY(100px);
+      transform: translateZ(130px) translateY(100px);
+    }
+  }
+  @keyframes mariposa {
+    0% {
+      transform: translateZ(0) translateY(0);
+      transform: translateZ(0) translateX(0);
+    }
+    100% {
+      transform: translateZ(130px) translateY(100px);
+      transform: translateZ(130px) translateY(100px);
+    }
+  }
+
+
+  
+  @keyframes dialog {
+    0% {
+      transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+       transform: translateY(-100px);
+       transform: translateY(-100px);
+    }
+  }
+  @keyframes dialog {
+    0% {
+      transform: translateY(0);
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100px);
+      transform: translateY(-100px);
+    }
+  }
